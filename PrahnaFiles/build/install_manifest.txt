@@ -1,1 +1,2 @@
-/usr/local/bin/prahna
+/usr/local/lib/libprahna.a
+/usr/local/include/output.h
