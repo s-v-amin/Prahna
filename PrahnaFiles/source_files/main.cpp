@@ -1,5 +1,5 @@
 #include <iostream>
-#include "output.h"
+#include "../header_files/output.h"
 
 void init(const string& message)
 {
