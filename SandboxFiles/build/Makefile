@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sahilamin/dev/Prahna/PrahnaFiles/source_files
+CMAKE_SOURCE_DIR = /Users/sahilamin/dev/Prahna/SandboxFiles/source_files
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/sahilamin/dev/Prahna/PrahnaFiles/build
+CMAKE_BINARY_DIR = /Users/sahilamin/dev/Prahna/SandboxFiles/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sahilamin/dev/Prahna/PrahnaFiles/build/CMakeFiles /Users/sahilamin/dev/Prahna/PrahnaFiles/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sahilamin/dev/Prahna/SandboxFiles/build/CMakeFiles /Users/sahilamin/dev/Prahna/SandboxFiles/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sahilamin/dev/Prahna/PrahnaFiles/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sahilamin/dev/Prahna/SandboxFiles/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named prahna
+# Target rules for targets named sandbox
 
 # Build rule for target.
-prahna: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 prahna
-.PHONY : prahna
+sandbox: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandbox
+.PHONY : sandbox
 
 # fast build rule for target.
-prahna/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/prahna.dir/build.make CMakeFiles/prahna.dir/build
-.PHONY : prahna/fast
+sandbox/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandbox.dir/build.make CMakeFiles/sandbox.dir/build
+.PHONY : sandbox/fast
 
-output.o: output.cpp.o
-.PHONY : output.o
+main.o: main.cpp.o
+.PHONY : main.o
 
 # target to build an object file
-output.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/prahna.dir/build.make CMakeFiles/prahna.dir/output.cpp.o
-.PHONY : output.cpp.o
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandbox.dir/build.make CMakeFiles/sandbox.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-output.i: output.cpp.i
-.PHONY : output.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-output.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/prahna.dir/build.make CMakeFiles/prahna.dir/output.cpp.i
-.PHONY : output.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandbox.dir/build.make CMakeFiles/sandbox.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-output.s: output.cpp.s
-.PHONY : output.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-output.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/prahna.dir/build.make CMakeFiles/prahna.dir/output.cpp.s
-.PHONY : output.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandbox.dir/build.make CMakeFiles/sandbox.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... prahna"
-	@echo "... output.o"
-	@echo "... output.i"
-	@echo "... output.s"
+	@echo "... sandbox"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

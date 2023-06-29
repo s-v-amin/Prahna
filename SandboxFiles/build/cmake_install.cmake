@@ -1,4 +1,4 @@
-# Install script for directory: /Users/sahilamin/dev/Prahna/PrahnaFiles/source_files
+# Install script for directory: /Users/sahilamin/dev/Prahna/SandboxFiles/source_files
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/sahilamin/dev/Prahna/PrahnaFiles/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/sahilamin/dev/Prahna/SandboxFiles/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/prahna.dir/main.cpp.o"
-  "CMakeFiles/prahna.dir/main.cpp.o.d"
-  "prahna"
-  "prahna.pdb"
+  "CMakeFiles/prahna.dir/output.cpp.o"
+  "CMakeFiles/prahna.dir/output.cpp.o.d"
+  "libprahna.a"
+  "libprahna.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

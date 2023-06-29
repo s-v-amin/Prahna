@@ -2,7 +2,8 @@
 
 #include "unistd.h"
 #include <string>
-using namespace std;
 
-void init(const string& message);
-void slowPrint(const string& message);
+namespace output {
+    void init(const std::string& message);
+    void print(const std::string& message);
+}

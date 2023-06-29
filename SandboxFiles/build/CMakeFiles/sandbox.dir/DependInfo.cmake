@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/sahilamin/dev/Prahna/PrahnaFiles/source_files/output.cpp" "CMakeFiles/prahna.dir/output.cpp.o" "gcc" "CMakeFiles/prahna.dir/output.cpp.o.d"
+  "/Users/sahilamin/dev/Prahna/SandboxFiles/source_files/main.cpp" "CMakeFiles/sandbox.dir/main.cpp.o" "gcc" "CMakeFiles/sandbox.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
