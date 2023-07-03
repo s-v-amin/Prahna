@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/prahna.dir/application.cpp.o"
+  "CMakeFiles/prahna.dir/application.cpp.o.d"
   "CMakeFiles/prahna.dir/output.cpp.o"
   "CMakeFiles/prahna.dir/output.cpp.o.d"
   "libprahna.a"

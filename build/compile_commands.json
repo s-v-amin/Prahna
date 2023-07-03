@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/sahilamin/dev/Prahna/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -o CMakeFiles/sandbox.dir/main.cpp.o -c /Users/sahilamin/dev/Prahna/SandboxFiles/source_files/main.cpp",
+  "file": "/Users/sahilamin/dev/Prahna/SandboxFiles/source_files/main.cpp",
+  "output": "CMakeFiles/sandbox.dir/main.cpp.o"
+}
+]

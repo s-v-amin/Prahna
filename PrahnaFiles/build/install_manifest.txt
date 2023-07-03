@@ -1,2 +1,0 @@
-/usr/local/lib/libprahna.a
-/usr/local/include/output.h

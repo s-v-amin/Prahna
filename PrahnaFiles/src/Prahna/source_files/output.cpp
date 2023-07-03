@@ -1,4 +1,4 @@
-#include "../header_files/output.h"
+#include "output.h"
 #include <iostream>
 
 void output::init(const std::string& message)

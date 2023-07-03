@@ -1,6 +1,6 @@
 CMakeFiles/prahna.dir/output.cpp.o: \
-  /Users/sahilamin/dev/Prahna/PrahnaFiles/source_files/output.cpp \
-  /Users/sahilamin/dev/Prahna/PrahnaFiles/source_files/../header_files/output.h \
+  /Users/sahilamin/dev/Prahna/PrahnaFiles/src/Prahna/source_files/output.cpp \
+  /Users/sahilamin/dev/Prahna/PrahnaFiles/src/Prahna/source_files/../header_files/output.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/unistd.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types.h \

@@ -53,7 +53,7 @@ RM = /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sahilamin/dev/Prahna/PrahnaFiles/source_files
+CMAKE_SOURCE_DIR = /Users/sahilamin/dev/Prahna/PrahnaFiles/src/Prahna/source_files
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/sahilamin/dev/Prahna/PrahnaFiles/build
@@ -70,30 +70,46 @@ include CMakeFiles/prahna.dir/progress.make
 include CMakeFiles/prahna.dir/flags.make
 
 CMakeFiles/prahna.dir/output.cpp.o: CMakeFiles/prahna.dir/flags.make
-CMakeFiles/prahna.dir/output.cpp.o: /Users/sahilamin/dev/Prahna/PrahnaFiles/source_files/output.cpp
+CMakeFiles/prahna.dir/output.cpp.o: /Users/sahilamin/dev/Prahna/PrahnaFiles/src/Prahna/source_files/output.cpp
 CMakeFiles/prahna.dir/output.cpp.o: CMakeFiles/prahna.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sahilamin/dev/Prahna/PrahnaFiles/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/prahna.dir/output.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/prahna.dir/output.cpp.o -MF CMakeFiles/prahna.dir/output.cpp.o.d -o CMakeFiles/prahna.dir/output.cpp.o -c /Users/sahilamin/dev/Prahna/PrahnaFiles/source_files/output.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/prahna.dir/output.cpp.o -MF CMakeFiles/prahna.dir/output.cpp.o.d -o CMakeFiles/prahna.dir/output.cpp.o -c /Users/sahilamin/dev/Prahna/PrahnaFiles/src/Prahna/source_files/output.cpp
 
 CMakeFiles/prahna.dir/output.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prahna.dir/output.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sahilamin/dev/Prahna/PrahnaFiles/source_files/output.cpp > CMakeFiles/prahna.dir/output.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sahilamin/dev/Prahna/PrahnaFiles/src/Prahna/source_files/output.cpp > CMakeFiles/prahna.dir/output.cpp.i
 
 CMakeFiles/prahna.dir/output.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prahna.dir/output.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sahilamin/dev/Prahna/PrahnaFiles/source_files/output.cpp -o CMakeFiles/prahna.dir/output.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sahilamin/dev/Prahna/PrahnaFiles/src/Prahna/source_files/output.cpp -o CMakeFiles/prahna.dir/output.cpp.s
+
+CMakeFiles/prahna.dir/application.cpp.o: CMakeFiles/prahna.dir/flags.make
+CMakeFiles/prahna.dir/application.cpp.o: /Users/sahilamin/dev/Prahna/PrahnaFiles/src/Prahna/source_files/application.cpp
+CMakeFiles/prahna.dir/application.cpp.o: CMakeFiles/prahna.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sahilamin/dev/Prahna/PrahnaFiles/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/prahna.dir/application.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/prahna.dir/application.cpp.o -MF CMakeFiles/prahna.dir/application.cpp.o.d -o CMakeFiles/prahna.dir/application.cpp.o -c /Users/sahilamin/dev/Prahna/PrahnaFiles/src/Prahna/source_files/application.cpp
+
+CMakeFiles/prahna.dir/application.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prahna.dir/application.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sahilamin/dev/Prahna/PrahnaFiles/src/Prahna/source_files/application.cpp > CMakeFiles/prahna.dir/application.cpp.i
+
+CMakeFiles/prahna.dir/application.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prahna.dir/application.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sahilamin/dev/Prahna/PrahnaFiles/src/Prahna/source_files/application.cpp -o CMakeFiles/prahna.dir/application.cpp.s
 
 # Object files for target prahna
 prahna_OBJECTS = \
-"CMakeFiles/prahna.dir/output.cpp.o"
+"CMakeFiles/prahna.dir/output.cpp.o" \
+"CMakeFiles/prahna.dir/application.cpp.o"
 
 # External object files for target prahna
 prahna_EXTERNAL_OBJECTS =
 
 libprahna.a: CMakeFiles/prahna.dir/output.cpp.o
+libprahna.a: CMakeFiles/prahna.dir/application.cpp.o
 libprahna.a: CMakeFiles/prahna.dir/build.make
 libprahna.a: CMakeFiles/prahna.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sahilamin/dev/Prahna/PrahnaFiles/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libprahna.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sahilamin/dev/Prahna/PrahnaFiles/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libprahna.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/prahna.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/prahna.dir/link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +122,6 @@ CMakeFiles/prahna.dir/clean:
 .PHONY : CMakeFiles/prahna.dir/clean
 
 CMakeFiles/prahna.dir/depend:
-	cd /Users/sahilamin/dev/Prahna/PrahnaFiles/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/sahilamin/dev/Prahna/PrahnaFiles/source_files /Users/sahilamin/dev/Prahna/PrahnaFiles/source_files /Users/sahilamin/dev/Prahna/PrahnaFiles/build /Users/sahilamin/dev/Prahna/PrahnaFiles/build /Users/sahilamin/dev/Prahna/PrahnaFiles/build/CMakeFiles/prahna.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/sahilamin/dev/Prahna/PrahnaFiles/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/sahilamin/dev/Prahna/PrahnaFiles/src/Prahna/source_files /Users/sahilamin/dev/Prahna/PrahnaFiles/src/Prahna/source_files /Users/sahilamin/dev/Prahna/PrahnaFiles/build /Users/sahilamin/dev/Prahna/PrahnaFiles/build /Users/sahilamin/dev/Prahna/PrahnaFiles/build/CMakeFiles/prahna.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/prahna.dir/depend
 

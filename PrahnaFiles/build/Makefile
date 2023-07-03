@@ -57,7 +57,7 @@ RM = /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sahilamin/dev/Prahna/PrahnaFiles/source_files
+CMAKE_SOURCE_DIR = /Users/sahilamin/dev/Prahna/PrahnaFiles/src/Prahna/source_files
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/sahilamin/dev/Prahna/PrahnaFiles/build
@@ -174,6 +174,30 @@ prahna/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prahna.dir/build.make CMakeFiles/prahna.dir/build
 .PHONY : prahna/fast
 
+application.o: application.cpp.o
+.PHONY : application.o
+
+# target to build an object file
+application.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prahna.dir/build.make CMakeFiles/prahna.dir/application.cpp.o
+.PHONY : application.cpp.o
+
+application.i: application.cpp.i
+.PHONY : application.i
+
+# target to preprocess a source file
+application.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prahna.dir/build.make CMakeFiles/prahna.dir/application.cpp.i
+.PHONY : application.cpp.i
+
+application.s: application.cpp.s
+.PHONY : application.s
+
+# target to generate assembly for a file
+application.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prahna.dir/build.make CMakeFiles/prahna.dir/application.cpp.s
+.PHONY : application.cpp.s
+
 output.o: output.cpp.o
 .PHONY : output.o
 
@@ -211,6 +235,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... prahna"
+	@echo "... application.o"
+	@echo "... application.i"
+	@echo "... application.s"
 	@echo "... output.o"
 	@echo "... output.i"
 	@echo "... output.s"

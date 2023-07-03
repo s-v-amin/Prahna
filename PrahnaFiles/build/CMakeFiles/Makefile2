@@ -54,7 +54,7 @@ RM = /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sahilamin/dev/Prahna/PrahnaFiles/source_files
+CMAKE_SOURCE_DIR = /Users/sahilamin/dev/Prahna/PrahnaFiles/src/Prahna/source_files
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/sahilamin/dev/Prahna/PrahnaFiles/build
@@ -81,12 +81,12 @@ clean: CMakeFiles/prahna.dir/clean
 CMakeFiles/prahna.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prahna.dir/build.make CMakeFiles/prahna.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prahna.dir/build.make CMakeFiles/prahna.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/sahilamin/dev/Prahna/PrahnaFiles/build/CMakeFiles --progress-num=1,2 "Built target prahna"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/sahilamin/dev/Prahna/PrahnaFiles/build/CMakeFiles --progress-num=1,2,3 "Built target prahna"
 .PHONY : CMakeFiles/prahna.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/prahna.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sahilamin/dev/Prahna/PrahnaFiles/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sahilamin/dev/Prahna/PrahnaFiles/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/prahna.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sahilamin/dev/Prahna/PrahnaFiles/build/CMakeFiles 0
 .PHONY : CMakeFiles/prahna.dir/rule

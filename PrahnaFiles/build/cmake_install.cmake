@@ -1,4 +1,4 @@
-# Install script for directory: /Users/sahilamin/dev/Prahna/PrahnaFiles/source_files
+# Install script for directory: /Users/sahilamin/dev/Prahna/PrahnaFiles/src/Prahna/source_files
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -46,7 +46,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/Users/sahilamin/dev/Prahna/PrahnaFiles/source_files/../header_files/output.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/Users/sahilamin/dev/Prahna/PrahnaFiles/src/Prahna/source_files/../header_files/core.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
