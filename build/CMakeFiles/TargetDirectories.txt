@@ -1,3 +1,0 @@
-/Users/sahilamin/dev/Prahna/build/CMakeFiles/sandbox.dir
-/Users/sahilamin/dev/Prahna/build/CMakeFiles/edit_cache.dir
-/Users/sahilamin/dev/Prahna/build/CMakeFiles/rebuild_cache.dir
