@@ -57,7 +57,7 @@ RM = /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sahilamin/dev/Prahna/SandboxFiles/source_files
+CMAKE_SOURCE_DIR = /Users/sahilamin/dev/Prahna/SandboxFiles/src/source_files
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/sahilamin/dev/Prahna/SandboxFiles/build
@@ -129,29 +129,29 @@ sandbox/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandbox.dir/build.make CMakeFiles/sandbox.dir/build
 .PHONY : sandbox/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+sandboxApp.o: sandboxApp.cpp.o
+.PHONY : sandboxApp.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandbox.dir/build.make CMakeFiles/sandbox.dir/main.cpp.o
-.PHONY : main.cpp.o
+sandboxApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandbox.dir/build.make CMakeFiles/sandbox.dir/sandboxApp.cpp.o
+.PHONY : sandboxApp.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+sandboxApp.i: sandboxApp.cpp.i
+.PHONY : sandboxApp.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandbox.dir/build.make CMakeFiles/sandbox.dir/main.cpp.i
-.PHONY : main.cpp.i
+sandboxApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandbox.dir/build.make CMakeFiles/sandbox.dir/sandboxApp.cpp.i
+.PHONY : sandboxApp.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+sandboxApp.s: sandboxApp.cpp.s
+.PHONY : sandboxApp.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandbox.dir/build.make CMakeFiles/sandbox.dir/main.cpp.s
-.PHONY : main.cpp.s
+sandboxApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandbox.dir/build.make CMakeFiles/sandbox.dir/sandboxApp.cpp.s
+.PHONY : sandboxApp.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... sandbox"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... sandboxApp.o"
+	@echo "... sandboxApp.i"
+	@echo "... sandboxApp.s"
 .PHONY : help
 
 

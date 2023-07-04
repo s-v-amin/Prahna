@@ -53,7 +53,7 @@ RM = /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sahilamin/dev/Prahna/SandboxFiles/source_files
+CMAKE_SOURCE_DIR = /Users/sahilamin/dev/Prahna/SandboxFiles/src/source_files
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/sahilamin/dev/Prahna/SandboxFiles/build
@@ -69,28 +69,28 @@ include CMakeFiles/sandbox.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/sandbox.dir/flags.make
 
-CMakeFiles/sandbox.dir/main.cpp.o: CMakeFiles/sandbox.dir/flags.make
-CMakeFiles/sandbox.dir/main.cpp.o: /Users/sahilamin/dev/Prahna/SandboxFiles/source_files/main.cpp
-CMakeFiles/sandbox.dir/main.cpp.o: CMakeFiles/sandbox.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sahilamin/dev/Prahna/SandboxFiles/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sandbox.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sandbox.dir/main.cpp.o -MF CMakeFiles/sandbox.dir/main.cpp.o.d -o CMakeFiles/sandbox.dir/main.cpp.o -c /Users/sahilamin/dev/Prahna/SandboxFiles/source_files/main.cpp
+CMakeFiles/sandbox.dir/sandboxApp.cpp.o: CMakeFiles/sandbox.dir/flags.make
+CMakeFiles/sandbox.dir/sandboxApp.cpp.o: /Users/sahilamin/dev/Prahna/SandboxFiles/src/source_files/sandboxApp.cpp
+CMakeFiles/sandbox.dir/sandboxApp.cpp.o: CMakeFiles/sandbox.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sahilamin/dev/Prahna/SandboxFiles/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sandbox.dir/sandboxApp.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sandbox.dir/sandboxApp.cpp.o -MF CMakeFiles/sandbox.dir/sandboxApp.cpp.o.d -o CMakeFiles/sandbox.dir/sandboxApp.cpp.o -c /Users/sahilamin/dev/Prahna/SandboxFiles/src/source_files/sandboxApp.cpp
 
-CMakeFiles/sandbox.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sandbox.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sahilamin/dev/Prahna/SandboxFiles/source_files/main.cpp > CMakeFiles/sandbox.dir/main.cpp.i
+CMakeFiles/sandbox.dir/sandboxApp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sandbox.dir/sandboxApp.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sahilamin/dev/Prahna/SandboxFiles/src/source_files/sandboxApp.cpp > CMakeFiles/sandbox.dir/sandboxApp.cpp.i
 
-CMakeFiles/sandbox.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sandbox.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sahilamin/dev/Prahna/SandboxFiles/source_files/main.cpp -o CMakeFiles/sandbox.dir/main.cpp.s
+CMakeFiles/sandbox.dir/sandboxApp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sandbox.dir/sandboxApp.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sahilamin/dev/Prahna/SandboxFiles/src/source_files/sandboxApp.cpp -o CMakeFiles/sandbox.dir/sandboxApp.cpp.s
 
 # Object files for target sandbox
 sandbox_OBJECTS = \
-"CMakeFiles/sandbox.dir/main.cpp.o"
+"CMakeFiles/sandbox.dir/sandboxApp.cpp.o"
 
 # External object files for target sandbox
 sandbox_EXTERNAL_OBJECTS =
 
-sandbox: CMakeFiles/sandbox.dir/main.cpp.o
+sandbox: CMakeFiles/sandbox.dir/sandboxApp.cpp.o
 sandbox: CMakeFiles/sandbox.dir/build.make
 sandbox: CMakeFiles/sandbox.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sahilamin/dev/Prahna/SandboxFiles/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable sandbox"
@@ -105,6 +105,6 @@ CMakeFiles/sandbox.dir/clean:
 .PHONY : CMakeFiles/sandbox.dir/clean
 
 CMakeFiles/sandbox.dir/depend:
-	cd /Users/sahilamin/dev/Prahna/SandboxFiles/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/sahilamin/dev/Prahna/SandboxFiles/source_files /Users/sahilamin/dev/Prahna/SandboxFiles/source_files /Users/sahilamin/dev/Prahna/SandboxFiles/build /Users/sahilamin/dev/Prahna/SandboxFiles/build /Users/sahilamin/dev/Prahna/SandboxFiles/build/CMakeFiles/sandbox.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/sahilamin/dev/Prahna/SandboxFiles/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/sahilamin/dev/Prahna/SandboxFiles/src/source_files /Users/sahilamin/dev/Prahna/SandboxFiles/src/source_files /Users/sahilamin/dev/Prahna/SandboxFiles/build /Users/sahilamin/dev/Prahna/SandboxFiles/build /Users/sahilamin/dev/Prahna/SandboxFiles/build/CMakeFiles/sandbox.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sandbox.dir/depend
 

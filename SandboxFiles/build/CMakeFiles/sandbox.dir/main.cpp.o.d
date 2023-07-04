@@ -1,5 +1,5 @@
 CMakeFiles/sandbox.dir/main.cpp.o: \
-  /Users/sahilamin/dev/Prahna/SandboxFiles/source_files/main.cpp \
+  /Users/sahilamin/dev/Prahna/SandboxFiles/src/source_files/main.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config_site \
@@ -414,7 +414,7 @@ CMakeFiles/sandbox.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/sahilamin/dev/Prahna/SandboxFiles/source_files/../../PrahnaFiles/header_files/output.h \
+  /Users/sahilamin/dev/Prahna/SandboxFiles/src/source_files/../../../PrahnaFiles/src/Prahna/header_files/output.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/unistd.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/unistd.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_posix_vdisable.h \

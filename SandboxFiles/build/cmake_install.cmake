@@ -1,4 +1,4 @@
-# Install script for directory: /Users/sahilamin/dev/Prahna/SandboxFiles/source_files
+# Install script for directory: /Users/sahilamin/dev/Prahna/SandboxFiles/src/source_files
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

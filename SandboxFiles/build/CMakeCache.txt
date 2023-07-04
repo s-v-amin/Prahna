@@ -217,7 +217,7 @@ sandbox_BINARY_DIR:STATIC=/Users/sahilamin/dev/Prahna/SandboxFiles/build
 sandbox_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-sandbox_SOURCE_DIR:STATIC=/Users/sahilamin/dev/Prahna/SandboxFiles/source_files
+sandbox_SOURCE_DIR:STATIC=/Users/sahilamin/dev/Prahna/SandboxFiles/src/source_files
 
 
 ########################
@@ -298,7 +298,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/Users/sahilamin/dev/Prahna/SandboxFiles/source_files
+CMAKE_HOME_DIRECTORY:INTERNAL=/Users/sahilamin/dev/Prahna/SandboxFiles/src/source_files
 //ADVANCED property for variable: CMAKE_INSTALL_NAME_TOOL
 CMAKE_INSTALL_NAME_TOOL-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

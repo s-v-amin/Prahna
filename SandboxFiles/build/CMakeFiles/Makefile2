@@ -54,7 +54,7 @@ RM = /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sahilamin/dev/Prahna/SandboxFiles/source_files
+CMAKE_SOURCE_DIR = /Users/sahilamin/dev/Prahna/SandboxFiles/src/source_files
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/sahilamin/dev/Prahna/SandboxFiles/build
