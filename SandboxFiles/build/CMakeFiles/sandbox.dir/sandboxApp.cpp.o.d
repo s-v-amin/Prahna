@@ -3,6 +3,7 @@ CMakeFiles/sandbox.dir/sandboxApp.cpp.o: \
   /Users/sahilamin/dev/Prahna/SandboxFiles/src/source_files/../../../PrahnaFiles/src/Prahna.h \
   /Users/sahilamin/dev/Prahna/SandboxFiles/src/source_files/../../../PrahnaFiles/src/Prahna/header_files/application.h \
   /Users/sahilamin/dev/Prahna/SandboxFiles/src/source_files/../../../PrahnaFiles/src/Prahna/header_files/core.h \
+  /Users/sahilamin/dev/Prahna/SandboxFiles/src/source_files/../../../PrahnaFiles/src/Prahna/header_files/entryPoint.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config_site \

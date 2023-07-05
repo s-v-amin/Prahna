@@ -10,5 +10,8 @@ namespace Prahna
         virtual ~Application();
 
         void Run();
+
     };
+
+    Application* CreateApplication();
 }

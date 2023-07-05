@@ -16,11 +16,7 @@ class Sandbox : public Prahna::Application
         }
 };
 
-int main()
+Prahna::Application* Prahna::CreateApplication()
 {
-    Sandbox* sandbox = new Sandbox();
-    std::cout << "Hello, World!" << std::endl;
-    sandbox->Run();
-    delete sandbox;
-    return 0;
+    return new Sandbox();
 }
