@@ -1,5 +1,4 @@
 #pragma once
-#define PR_PLATFORM_MAC
 
 #ifdef PR_PLATFORM_MAC
 
